@@ -63,8 +63,45 @@ camera_usb_options="-r 1280x720 -f 10"
 #camera_raspi_options="-fps 10"
 #camera_raspi_options="-x 1280 -y 1024 -ev -ex backlight -awb auto -mm average"
 #camera_raspi_options="-x 1920 -y 1080 -ev -ex backlight -awb auto -mm average"
-camera_raspi_options="-x 1280 -y 720 -ex backlight -awb auto -mm average"
+camera_raspi_options="-x 1280 -y 720 -ev -ex auto -awb auto -mm average"
 #camera_raspi_options="-x 800 -y 600 -ex backlight -awb auto -mm average"
+
+# -fps or --framerate: set video framerate, default 1 frame/sec
+# -x or --width: width of frame capture, default 640
+# -y or --height: height of frame capture, default 480
+# -quality: set JPEG quality (0 to 100), default 85
+# -usestills: uses stills mode instead of video mode
+# -sh: Set image sharpness (-100 to 100)
+# -co: Set image contrast (-100 to 100)
+# -br: Set image brightness (0 to 100)
+# -sa: Set image saturation (-100 to 100)
+# -ISO: Set capture ISO
+# -vs: Turn on video stablisation
+# -ev: Set EV compensation
+# -ex: Set exposure mode, valid values (according to the RaspiCam 1.8k documentation):
+#	 off
+#	 auto: Use automatic exposure
+#	 night: Select setting for night shooting
+#	 nightpreview
+#	 backlight: Select setting for back-lit subject
+#	 spotlight
+#	 sports: Select setting for sports (fast shutter etc.)
+#	 snow: Select setting optimized for snowy scenery
+#	 beach: Select setting optimized for beach
+#	 verylong: Select setting for long exposures
+#	 fixedfps: Constrain fps to a fixed value
+#	 antishake: Antishake mode
+# 	 fireworks: Select setting optimized for fireworks
+# -awb: Set AWB mode, valid values (according to the RaspiCam 1.8k documentation):
+# 	off: Turn off white balance calculation
+# 	auto: Automatic mode (default)
+# 	sun: Sunny mode
+# 	cloudshade: Cloudy mode
+# 	tungsten: Tungsten lighting mode
+# 	fluorescent: Fluorescent lighting mode
+# 	incandescent: Incandescent lighting mode
+# 	flash: Flash mode
+# 	horizon: Horizon mode
 
 
 ### Configuration of camera HTTP output
