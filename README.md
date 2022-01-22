@@ -13,11 +13,12 @@
     - Power and LED Controle (relais on RasPi as mcu un klipper with controle over fluidd gui)
     - ...
  - Software: 
-    - Klipper
+    - klipper
     - moonraker 
     - fluidd 
+    - mjpg-streamer
     - all from fluiddPI-image for Raspberry Pi
-    - timelabs plugin
+    - timelabs, shell_command plugin
     - ...
  - Macros
     - default macros: start_print, end_print, cancel_print, resume, pause, prime_line, M125 or parking_toolhead, parkin_bed
