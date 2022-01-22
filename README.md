@@ -1,12 +1,13 @@
 # AlexK klipper_config
 3D Printer Klipper config and macros files from AlexK  (work in process)
  - Hardware: (and config for this hardware)
-    - Ender 3 Pro 
+    - Ender 3 Pro as Ground strukture
     - Dual Extruder with one Hot-End
     - Filament Sensors
+    - Bed Level Sensor (BtlSensor)
     - BTT Octopus Board 1.1
     - Raspberry Pi v3
-    - PiCam for total and nozzle-Cam for view the Nozzle and the print result
+    - PiCam for total and nozzle-Cam for view the print result
     - Controller Case with Temperature Fan Controle
     - Ikea Case with Temperature Fan Contorle
     - ...
