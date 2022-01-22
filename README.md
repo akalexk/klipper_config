@@ -1,5 +1,5 @@
 # AlexK klipper_config
-3D Printer Klipper config and macros files from AlexK  
+3D Printer Klipper config and macros files from AlexK  (work in process)
  - Hardware: (and config for this hardware)
     - Ender 3 Pro 
     - Dual Extruder with one Hot-End
