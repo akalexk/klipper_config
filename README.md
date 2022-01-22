@@ -8,13 +8,15 @@
     - Raspberry Pi v3
     - PiCam for total and nozzle-Cam for view the Nozzle and the print result
     - Controller Case with Temperature Fan Controle
-    - Ikea Case with Temperature Fan Contorle, ...
+    - Ikea Case with Temperature Fan Contorle
+    - ...
  - Software: 
     - Klipper
     - moonraker 
     - fluidd 
     - all from fluiddPI-image for Raspberry Pi
     - timelabs plugin
+    - ...
  - Macros
     - default macros: start_print, end_print, cancel_print, resume, pause, prime_line, M125 or parking_toolhead, parkin_bed
     - macros for BED_MESH_CALIBRATE:  G29 or bed_mesh_home_all
@@ -22,4 +24,5 @@
     - macros for Dual Hot-end controle: T0, T1, switch_extruders and controle the default-var ... with power lose save var Extruder Status
     - on_connect macro: ON_CONNECT to load the save_var for Dual Hot-end power lose modus
     - shell_command macros: git_pull_sh, git_push_sh in my case for this github
-    - others: M300 (Beeper), LOW_TEMP_CHECK, CLEAR_MSG, Countdown
+    - others: M300 (Beeper), LOW_TEMP_CHECK, CLEAR_MSG, Countdown, search_vars to search/view the printer klipper var tree in runtime
+    - ...
