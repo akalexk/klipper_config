@@ -5,7 +5,8 @@
     - Dual Extruder with one Hot-End
     - Filament Sensors
     - BTT Octopus Board 1.1
-    - RasPi v3
+    - Raspberry Pi v3
+    - PiCam for total and nozzle-Cam for view the Nozzle and the print result
     - Controller Case with Temperature Fan Controle
     - Ikea Case with Temperature Fan Contorle, ...
  - Software: 
