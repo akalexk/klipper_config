@@ -63,7 +63,8 @@ camera_usb_options="-r 1280x720 -f 10"
 #camera_raspi_options="-fps 10"
 #camera_raspi_options="-x 1280 -y 1024 -ev -ex backlight -awb auto -mm average"
 #camera_raspi_options="-x 1920 -y 1080 -ev -ex backlight -awb auto -mm average"
-camera_raspi_options="-x 1280 -y 720 -ev -ex auto -awb auto -mm average"
+#camera_raspi_options="-x 1280 -y 720 -br 55 -ISO 8000 -ev -ex auto -awb auto -mm matrix"
+camera_raspi_options="-x 1280 -y 720 -ISO 800 -ev 8 -ex night -awb auto"
 #camera_raspi_options="-x 800 -y 600 -ex backlight -awb auto -mm average"
 
 # -fps or --framerate: set video framerate, default 1 frame/sec
