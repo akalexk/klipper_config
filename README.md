@@ -10,7 +10,7 @@
     - PiCam for total and nozzle-Cam for view the print result
     - Controller Case with Temperature Fan Controle
     - Ikea Case with Temperature Fan Controle
-    - Power and LED Controle (relais on RasPi as mcu un klipper with controle over fluidd gui)
+    - Power and LED Controle (relais on RasPi as mcu in klipper with controle over fluidd gui)
     - ...
  - Software: 
     - klipper
