@@ -1,0 +1,69 @@
+[server]
+host = 0.0.0.0
+port = 7125
+
+[file_manager]
+
+[data_store]
+temperature_store_size = 1200
+gcode_store_size = 1000
+
+[authorization]
+force_logins = True
+cors_domains = 
+	*.local
+	*.lan
+	*.fritz.box
+	*://app.fluidd.xyz
+trusted_clients = 
+	127.0.0.0/8
+	192.168.0.29
+
+[octoprint_compat]
+
+[history]
+
+[update_manager]
+enable_auto_refresh = True
+
+[update_manager client fluidd]
+type = web
+repo = cadriel/fluidd
+path = ~/fluidd
+
+[power PrinterPSU]
+type = gpio
+pin = !gpiochip0/gpio14
+locked_while_printing = True
+
+[power PrinterLED]
+type = gpio
+pin = !gpiochip0/gpio15
+locked_while_printing = True
+
+[mqtt]
+address = 192.168.0.4
+port = 1883
+username = iotuser
+password = BsAc-SDKzXx-y5k.ILa35
+mqtt_protocol = v3.1.1
+enable_moonraker_api = True
+instance_name = fluidd
+status_objects = 
+	webhooks
+	extruder=temperature
+	heater_bed=temperature
+	fan=speed
+default_qos = 0
+
+[update_manager timelapseupdate]
+type = git_repo
+primary_branch = main
+path = ~/moonraker-timelapse
+origin = https://github.com/mainsail-crew/moonraker-timelapse.git
+
+[timelapse]
+output_path = ~/timelapse/
+frame_path = /tmp/timelapse/
+ffmpeg_binary_path = /usr/bin/ffmpeg
+
