@@ -1,4 +1,4 @@
-# AlexK klipper_config
+# AlexK klipper_config 
 3D Printer Klipper config and macros files from AlexK  (work in process)
  - Hardware: (and config for this hardware)
     - Ender 3 Pro as Ground strukture
@@ -29,3 +29,6 @@
     - shell_command macros: git_pull_sh, git_push_sh in my case for this github
     - others: M300 (Beeper), LOW_TEMP_CHECK, CLEAR_MSG, Countdown, search_vars to search/view the printer klipper var tree in runtime
     - ...
+
+
+link: https://github.com/akalexk/klipper_config

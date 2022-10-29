@@ -41,11 +41,13 @@ type = gpio
 pin = !gpiochip0/gpio15
 locked_while_printing = True
 
+[secrets]
+
 [mqtt]
 address = 192.168.0.4
 port = 1883
-username = iotuser
-password = BsAc-SDKzXx-y5k.ILa35
+username = {secrets.mqtt_credentials.username}
+password = {secrets.mqtt_credentials.password}
 mqtt_protocol = v3.1.1
 enable_moonraker_api = True
 instance_name = fluidd
